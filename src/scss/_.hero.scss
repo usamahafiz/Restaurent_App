@@ -1,0 +1,102 @@
+.carousel-caption-center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.carousel-caption-center h3 {
+  font-size: 3rem; 
+  font-weight: bold;
+}
+
+.carousel-caption-center p {
+  font-size: 1.2rem;  
+}
+.carousel-caption-center button { 
+  padding: 14px 26px; 
+  background-color: #ef233c; 
+}
+
+#des {
+  font-weight: bold;
+  font-size: 1.5rem; 
+  color: #ef233c; 
+}
+
+
+@media (max-width: 576px){
+  .carousel-caption-center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  
+    
+.carousel-caption-center h3 {
+  font-size:  12px; 
+  font-weight: bold;
+}
+
+.carousel-caption-center p {
+  font-size: 1.1rem;  
+}
+.carousel-caption-center button { 
+  padding: 10px 22px; 
+  background-color: #ef233c; 
+}
+
+#des {
+  font-weight: bold;
+  font-size: 1rem; 
+  color: #ef233c; 
+}
+}
+
+
+
+
+
+
+
+.sectionStyle { 
+    background-image: url('https://i.pinimg.com/474x/15/1a/2e/151a2ee727935d4e039050d4fb7fa513.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+    overflow-x: hidden;
+}
+.sectionStyles { 
+    background-image: url('https://images.pexels.com/photos/8180728/pexels-photo-8180728.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+    overflow-x: hidden;
+}

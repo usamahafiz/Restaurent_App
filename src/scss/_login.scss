@@ -1,0 +1,61 @@
+
+.login-page {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  // background-image: url("https://i.pinimg.com/474x/1d/23/8a/1d238a0382fc1009fecf0fc17f137398.jpg");
+  background-image: url("https://img.freepik.com/free-photo/wallpaper-magic-blue-light-beautiful_1253-433.jpg?ga=GA1.1.605566897.1725475014&semt=ais_siglip");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-heading {
+  text-align: center;
+  
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-input {
+  width: 100%;
+}
+
+.login-button {
+  width: 100%;
+  background-color:#1d3557;
+  border-color: #333333;
+  color: #FFFFFF;
+}
+
+.google-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-page .ant-modal {
+  top: 20%;
+}
+
+.login-page .ant-modal-footer {
+  display: none;
+}

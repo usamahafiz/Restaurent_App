@@ -1,0 +1,35 @@
+.footer{
+  overflow: hidden;
+}
+
+
+/* Style for links in categories, quick links, phone, and email */
+.text-dark a,
+.text-dark a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Adding hover effect for visual feedback */
+.text-dark a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+.social-icon a {
+  margin-left: 15px;
+  color: #000000;
+  font-size: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@media (max-width: 576px) {
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .foot2 img {
+    margin-top: 20px;
+  }
+}

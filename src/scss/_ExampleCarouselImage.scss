@@ -1,0 +1,15 @@
+
+
+.image img {
+    height: 550px;
+    object-fit: cover; 
+    width: 100%; // Ensure the image covers full width
+}
+
+@media (max-width: 576px){
+    .image img {
+        height: 450px; // Adjust height for smaller screens
+        object-fit: cover; 
+        
+    }
+}
